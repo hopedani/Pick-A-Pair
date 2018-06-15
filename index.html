@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+Name:  Daniel Hope
+Assignment:  Assignment 8
+Date:  April 23, 2017
+
+App Description: This application invokes a classic Pick-A-Pair game, 
+that tracks the time and number of moves taken to find all matches(complete
+game).
+
+Page Description: This is the index page that allows the user enter a user name
+and password that will be stored in a DB for future reference.
+
+Files: script.js - contains the functionality of the game
+       style.css - contains the styles for the application
+       index.html - the main page with the Pick-A-Pair playing area
+-->
+<html>
+  <head>
+    <title>Pick-A-Pair: Daniel Hope</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="text/javascript" src="scripts/script.js"></script>
+  </head>
+  <body>
+    <header><h1>Pick-A-Pair</h1></header>
+    <div>
+      <div id="message">
+        <p>GAME OVER!</p>
+        <h3 id="winner"></h3>
+        <p>&mdash;click anywhere in the box to dismiss this message&mdash;</p>
+      </div>
+      <div id="overlay"></div>
+      <table id="board"></table>
+      <div class="gameTicker">Game Timer: <span id="ticker">00:00</span></div>
+    </div>
+    <footer>
+      <address>Daniel Hope @ SYST10199 Web Programming, Sheridan College</address>
+    </footer> 
+
+  </body>
+</html>
